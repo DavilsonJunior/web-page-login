@@ -40,12 +40,12 @@ export const NotificationsContainer = styled.div`
       }
     }
 
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid ${theme.colors.grey200};
   }
 
   max-width: 500px;
   margin-left: auto;
   padding: 20px;
 
-  background-color: #eee;
+  background-color: ${theme.colors.grey200};
 `;

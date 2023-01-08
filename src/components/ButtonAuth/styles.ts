@@ -17,7 +17,7 @@ export const Container = styled.button`
 
     &:hover,
     & {
-      background: ${theme.colors.tooltip};
+      background: ${theme.colors.grey200};
     }
   }
 

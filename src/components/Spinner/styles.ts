@@ -1,11 +1,7 @@
-import theme from '@/styles/theme';
-import styled from 'styled-components';
+import theme from "@/styles/theme";
+import styled from "styled-components";
 
-interface SpinnerContainerProps {
-  themeSpinner?: 'dark' | 'light';
-}
-
-export const SpinnerContainer = styled.div<SpinnerContainerProps>`
+export const SpinnerContainer = styled.div`
   .spinnerContainer {
     grid-column: 1/ -1;
     text-align: center;
@@ -18,14 +14,8 @@ export const SpinnerContainer = styled.div<SpinnerContainerProps>`
       height: 22px;
 
       border: solid 2px transparent;
-      border-top-color: ${props =>
-        props.themeSpinner === 'dark'
-          ? theme.colors.background
-          : theme.colors.primary};
-      border-left-color: ${props =>
-        props.themeSpinner === 'dark'
-          ? theme.colors.background
-          : theme.colors.primary};
+      border-top-color: ${theme.colors.primary};
+      border-left-color: ${theme.colors.primary};
       border-radius: 50%;
 
       -webkit-animation: spinner 400ms linear infinite;

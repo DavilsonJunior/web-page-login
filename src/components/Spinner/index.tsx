@@ -1,12 +1,8 @@
 import { SpinnerContainer } from './styles';
 
-interface SpinnerProps {
-  theme?: 'dark' | 'light';
-}
-
-export function Spinner({ theme = 'light' }: SpinnerProps) {
+export function Spinner() {
   return (
-    <SpinnerContainer themeSpinner={theme}>
+    <SpinnerContainer>
       <h4 className="spinnerContainer">
         <div className="spinner" />
       </h4>

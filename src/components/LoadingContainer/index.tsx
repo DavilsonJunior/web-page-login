@@ -5,6 +5,6 @@ import { Container } from './styles';
 export const LoadingContainer: React.FC = () => (
   <Container>
     <img src={logo} alt="logo NossaEntrega" className="loading__icon" />
-    <Spinner theme="light" />
+    <Spinner />
   </Container>
 );

@@ -7,7 +7,7 @@ const theme = {
     secondary: "#b33b72",
     backgroundImage: "#EFF0F7",
     grey600: "#999",
-    placeholder: "#CCC",
+    grey200: "#CCC",
     error: "red",
   },
 
