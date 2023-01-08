@@ -47,5 +47,5 @@ export const NotificationsContainer = styled.div`
   margin-left: auto;
   padding: 20px;
 
-  background-color: ${theme.colors.grey200};
+  background-color: ${theme.colors.grey100};
 `;

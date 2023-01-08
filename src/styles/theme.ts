@@ -8,6 +8,7 @@ const theme = {
     backgroundImage: "#EFF0F7",
     grey600: "#999",
     grey200: "#CCC",
+    grey100: "#EEE",
     error: "red",
   },
 
